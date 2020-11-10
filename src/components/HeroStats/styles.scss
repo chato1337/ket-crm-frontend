@@ -1,0 +1,33 @@
+@import "../../styles/vars.scss";
+
+.HeroStats {
+	display: flex;
+	background-color: white;
+	border-radius: 25px;
+	padding: 5px;
+	margin: 5px;
+}
+
+.Hero-percentage {
+	margin: 5px 10px;
+}
+
+.Hero-content {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: auto;
+	align-items: center;
+	gap: 10px 15px;
+}
+
+.Hero-item {
+	display: flex;
+	justify-content: space-between;
+	// margin-right: 5px;
+	p {
+		margin: 0;
+	}
+	h2 {
+		margin: 0;
+	}
+}

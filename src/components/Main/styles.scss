@@ -1,0 +1,28 @@
+@import "../../styles/vars.scss";
+
+.Main {
+	background-color: $light-color;
+	// height: 100vh;
+	border-radius: 50px 0 0 50px;
+	padding: 20px;
+
+	&__header {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	&__hero {
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
+.search {
+	display: flex;
+	align-items: center;
+	background-color: #f3f2f7;
+	input {
+		border: none;
+	}
+	//find method to hide outline focus
+}

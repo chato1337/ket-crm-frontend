@@ -1,0 +1,15 @@
+@import "../../styles/vars.scss";
+
+.SearchInput {
+	display: flex;
+	align-items: center;
+	width: 190px;
+	padding: 3px;
+	border: 1px solid $dark-color;
+	border-radius: 15px;
+	background-color: #f3f2f7;
+	input {
+		border: none;
+		background-color: inherit;
+	}
+}
